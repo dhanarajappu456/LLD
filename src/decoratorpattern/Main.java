@@ -1,4 +1,4 @@
-package decorator;
+package decoratorpattern;
 
 
 public class Main {

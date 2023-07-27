@@ -1,11 +1,11 @@
-package decorator;
+package decoratorpattern;
 
 public class Espresso  extends Beverage{
 
 
     @Override
     public String getDescription() {
-        return "Decorator.Espresso ";
+        return "Espresso ";
     }
 
     @Override

@@ -1,10 +1,8 @@
-package decorator;
+package decoratorpattern;
 
 public abstract class Beverage {
 
 
-    String  name ;
-    String description;
 
 
     public abstract  String getDescription();

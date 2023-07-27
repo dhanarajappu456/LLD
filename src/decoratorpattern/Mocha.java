@@ -1,4 +1,4 @@
-package decorator;
+package decoratorpattern;
 
 public class Mocha extends  CondimentDecorator {
 
@@ -8,7 +8,7 @@ public class Mocha extends  CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverageDecorated.getDescription() + "Decorator.Mocha ";
+        return beverageDecorated.getDescription() + "Mocha ";
     }
 
     @Override

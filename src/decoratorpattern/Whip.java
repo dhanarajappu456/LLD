@@ -1,4 +1,4 @@
-package decorator;
+package decoratorpattern;
 
 public class Whip extends  CondimentDecorator {
 
@@ -8,7 +8,7 @@ public class Whip extends  CondimentDecorator {
 
     @Override
     public String getDescription() {
-        return beverageDecorated.getDescription() + "Decorator.Whip ";
+        return beverageDecorated.getDescription() + "Whip ";
     }
 
     @Override
