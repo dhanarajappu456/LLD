@@ -1,10 +1,10 @@
-package design.tictactoe;
+package design.tictactoe.model;
 
 import java.util.*;
 
 public class Game {
 
-    BoardTicTacToe board;
+    public BoardTicTacToe board;
     Deque<Player> players = new LinkedList<>();
 
     public Game() {

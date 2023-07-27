@@ -1,4 +1,4 @@
-package design.tictactoe;
+package design.tictactoe.model;
 
 public class BoardTicTacToe extends Board {
 
@@ -31,7 +31,7 @@ public class BoardTicTacToe extends Board {
 
     }
 
-    Boolean checkBoardFull() {
+    public Boolean checkBoardFull() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 if (board[i][j] == null) {
@@ -43,13 +43,13 @@ public class BoardTicTacToe extends Board {
         return true;
     }
 
-    Boolean checkAlreadyOccupied(int x, int y) {
+    public Boolean checkAlreadyOccupied(int x, int y) {
 
 
         return board[x][y] != null;
     }
 
-    void addPiece(int x, int y, Piece piece) {
+    public void addPiece(int x, int y, Piece piece) {
         board[x][y] = piece;
     }
 

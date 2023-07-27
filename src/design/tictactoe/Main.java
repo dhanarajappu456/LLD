@@ -1,6 +1,8 @@
 package design.tictactoe;
 
 
+import design.tictactoe.model.Game;
+
 public class Main {
     public static void main(String[] args) {
 

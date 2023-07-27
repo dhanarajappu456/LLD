@@ -1,4 +1,4 @@
-package design.tictactoe;
+package design.tictactoe.model;
 
 public class Piece {
 

@@ -1,9 +1,9 @@
-package design.tictactoe;
+package design.tictactoe.model;
 
 public abstract class Board {
 
-    int size;
-    Piece[][] board;
+    public int size;
+    public Piece[][] board;
 
     Board(int size) {
         this.size = size;
