@@ -18,5 +18,12 @@ public class Main {
         // notifying the subscribed users
         weCode.notifyObserver("Concept of OOPS");
 
+
+        System.out.println("After removing  ronny:\n");
+        //  ronny is removed from the subscribers of the weCode
+        weCode.removeObserver(ronny);
+
+        // notifying the subscribed users
+        weCode.notifyObserver("Concept of OOPS");
     }
 }
