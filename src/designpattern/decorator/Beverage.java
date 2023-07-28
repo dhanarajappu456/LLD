@@ -1,4 +1,4 @@
-package decoratorpattern;
+package designpattern.decorator;
 
 public abstract class Beverage {
 
