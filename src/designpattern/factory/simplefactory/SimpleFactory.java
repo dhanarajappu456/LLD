@@ -1,4 +1,4 @@
-package designpattern.factory.simple;
+package designpattern.factory.simplefactory;
 
 public class SimpleFactory {
 
@@ -7,12 +7,13 @@ public class SimpleFactory {
 
 
         IPizza pizza = null;
-        System.out.println("creating the " + type + " pizza");
+
         if (type == "cheese") {
             pizza = new CheesePizza("cheese");
-        } else if (type == "pepper") {
+        } else if (type == "pepperoni") {
 
-            pizza = new PepperoniPizza("pepper");
+
+            pizza = new PepperoniPizza("pepperoni");
 
         }
         return pizza;
