@@ -1,4 +1,4 @@
-package designpattern.factory.factorymethod;
+package designpattern.factory.abstractfactory;
 
 public abstract class Store {
 
@@ -16,7 +16,7 @@ public abstract class Store {
         return pizza;
 
     }
-    //factory method : Store don't know which pizza object being instantiated
+
     public abstract Pizza createPizza(String type);
 
 }
