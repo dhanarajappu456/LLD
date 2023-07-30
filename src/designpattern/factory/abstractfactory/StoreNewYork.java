@@ -2,7 +2,7 @@ package designpattern.factory.abstractfactory;
 
 public class StoreNewYork extends Store {
 
-
+    // composition of objects of the type : abstract factory
     IngredientFactory newyorkFactory = new IngredientFactoryNewYork();
 
     @Override
