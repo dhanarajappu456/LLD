@@ -1,20 +1,20 @@
 package designpattern.factory.abstractfactory;
 
-public class ChicagoStore extends Store {
+public class StoreChicago extends Store {
 
 
-    IngredientFactory chicagoFactory = new ChicagoIngredientFactory();
+    IngredientFactory chicagoFactory = new IngredientFactoryChicago();
 
     @Override
     public Pizza createPizza(String type) {
         if (type == "cheese") {
 
-            return new ChicagoCheesePizza(chicagoFactory);
+            return new PizzaChicagoCheese(chicagoFactory);
 
 
         } else if (type == "pepperoni") {
 
-            return new ChicagoPepperoniPizza(chicagoFactory);
+            return new PizzaChicagoPepperoni(chicagoFactory);
         } else {
 
             return null;

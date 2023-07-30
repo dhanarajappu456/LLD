@@ -1,10 +1,10 @@
 package designpattern.factory.abstractfactory;
 
-public class NewyorkCheesePizza extends Pizza {
+public class PizzaNewyorkCheese extends Pizza {
 
     IngredientFactory factory;
 
-    public NewyorkCheesePizza(IngredientFactory fact) {
+    public PizzaNewyorkCheese(IngredientFactory fact) {
         setName("New york cheese pizza");
         factory = fact;
 

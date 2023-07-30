@@ -3,7 +3,7 @@ package designpattern.factory.abstractfactory;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ChicagoIngredientFactory implements IngredientFactory {
+public class IngredientFactoryChicago implements IngredientFactory {
 
     @Override
     public String getDough() {
