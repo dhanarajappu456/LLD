@@ -15,7 +15,7 @@ class Floor{
   
   void addSlot(ParkingSlot slot){
     
-    slots.set(slot.vehicleType, slot);
+    slots.add(slot.vehicleType, slot);
     
     
   }
