@@ -1,2 +1,6 @@
-package snakeladder;public class Cell {
+package snakeladder;
+
+public class Cell {
+
+    Jump jump;
 }
