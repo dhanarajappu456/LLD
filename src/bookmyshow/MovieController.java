@@ -17,7 +17,7 @@ public class MovieController {
         allMovies = new ArrayList<>();
     }
 
-    void addMovies(Movie movie, String city) {
+    void addMovie(Movie movie, String city) {
         List<Movie> movies = cityVsMovies.getOrDefault(city, new ArrayList<>());
 
         movies.add(movie);
