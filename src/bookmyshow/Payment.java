@@ -1,5 +1,7 @@
 package bookmyshow;
 
+import bookmyshow.enums.PaymentStatus;
+
 public class Payment {
     int id;
     Booking booking;

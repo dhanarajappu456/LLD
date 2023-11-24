@@ -1,5 +1,7 @@
 package bookmyshow;
 
+import bookmyshow.enums.SeatType;
+
 public class Seat {
 
     int row;

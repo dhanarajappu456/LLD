@@ -1,5 +1,7 @@
 package bookmyshow;
 
+import bookmyshow.enums.PaymentStatus;
+
 import java.util.List;
 
 public class Booking {
