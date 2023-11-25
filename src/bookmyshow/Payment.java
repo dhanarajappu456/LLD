@@ -12,6 +12,7 @@ public class Payment {
 
     void payBill() {
         booking.status = PaymentStatus.PAID;
+        System.out.println("Paid the bill amount = " + booking.amount);
     }
 
 

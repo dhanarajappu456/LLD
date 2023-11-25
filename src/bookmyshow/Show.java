@@ -1,5 +1,6 @@
 package bookmyshow;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Show {
@@ -7,7 +8,8 @@ public class Show {
     int id;
     Movie movie;
     int startTime;
-    List<Seat> bookedSeats;
+    List<Integer> bookedSeatsIds = new ArrayList<>();
+    Screen screen;
 
     public int getId() {
         return id;
@@ -33,11 +35,22 @@ public class Show {
         this.startTime = startTime;
     }
 
-    public List<Seat> getBookedSeats() {
-        return bookedSeats;
+    public List<Integer> getBookedSeatsIds() {
+        return bookedSeatsIds;
     }
 
-    public void setBookedSeats(List<Seat> bookedSeats) {
-        this.bookedSeats = bookedSeats;
+    public void setBookedSeatsIds(List<Integer> bookedSeatsIds) {
+        this.bookedSeatsIds = bookedSeatsIds;
     }
+
+    public Screen getScreen() {
+        return screen;
+    }
+
+    public void setScreen(Screen screen) {
+        this.screen = screen;
+    }
+
 }
+
+

@@ -11,7 +11,7 @@ public class Booking {
     Show show;
     int amount;
 
-    PaymentStatus status;
+    PaymentStatus status = PaymentStatus.PENDING;
 
     public int getId() {
         return id;

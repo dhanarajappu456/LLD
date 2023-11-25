@@ -22,6 +22,9 @@ public class MovieController {
 
         movies.add(movie);
 
+        cityVsMovies.put(city, movies);
+        allMovies.add(movie);
+
 
     }
 
@@ -37,8 +40,10 @@ public class MovieController {
     }
 
     List<Movie> movieByCity(String city) {
+        //assume only cities listed can be selected for a movie
 
         return cityVsMovies.get(city);
+
     }
 
 
